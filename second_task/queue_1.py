@@ -1,4 +1,4 @@
-class CyclesQueue:
+class Queue1:
     def __init__(self, size):
         self._items = [0] * size
         self._head = 0
@@ -44,7 +44,7 @@ class CyclesQueue:
         return self._items
 
 
-q = CyclesQueue(5)
+q = Queue1(5)
 q.append(2)
 q.append(5)
 q.append(10)
